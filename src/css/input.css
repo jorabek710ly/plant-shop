@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: mont;
+    src: url(/src/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(/src/fonts/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: sens;
+    src: url(/src/fonts/WorkSans-VariableFont_wght.ttf);
+}
+.container{
+    max-width: 1392px;
+}
+.img{
+    max-width: 100%;
+    max-height: 100%;
+}
